@@ -1,0 +1,211 @@
+
+
+/* FONTS */
+@font-face {
+    font-family: OverusedGrotesk;
+    src: url("Assets/Fonts/overused_grotesk/OverusedGrotesk-Medium.ttf"); 
+}
+@font-face {
+    font-family: Heming;
+    src: url("Assets/Fonts/Heming/Heming.ttf"); 
+}
+@font-face {
+    font-family: Dotted;
+    src: url("Assets/Fonts/Dotted/Dotted.ttf"); 
+}
+@font-face {
+    font-family: Coolvetica;
+    src: url("Assets/Fonts/coolvetica/Coolvetica Rg.ttf"); 
+}
+@font-face {
+    font-family: ZalandoSansExpanded;
+    src: url("Assets/Fonts/zalando_sans/ZalandoSans-Expanded.ttf"); 
+}
+
+html{
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+/* =-=-=-=-=-=-=-=-=-= DESKTOP INTERFACE =-=-=-=-=-=-=-=-=-= */
+
+@media only screen and (min-width: 951px){
+
+body{
+  background-color: #D9D9D9;
+  padding: 1.9%;
+  padding-bottom: 3%;
+  height: 100%; /*set to 15vh if it's only 1 page*/
+}
+
+.TopWindow{
+  position: relative;
+  background: linear-gradient(123deg, #333333, #151515);
+  width: 100%;
+  height: 49vw;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  border-radius: 55px;
+  margin-top: 1vw;
+}
+
+.UpperArea{
+  position: relative;
+  display: flex;  
+}
+
+.TextBox{
+  float: left;
+  order: 1;
+  width: 35.5%;
+  background-color: #D9D9D9;
+  margin-top: 3vw;
+  border-radius: 7vw;
+  margin-left: 4.5%;
+  box-shadow: inset 0 0 0 3px #D9D9D9;
+}
+
+
+.RunningText{
+  display: inline-block;
+  font-family: "Dotted";
+  font-size: 2.5vw;
+  overflow: hidden;
+  border-radius: 0.3vw;
+  padding-top: 1vw;
+  color: #333333;
+}
+
+.RunningText marquee{
+  padding-top: 0.3vw;
+  border-radius: 1.1vw;
+}
+
+.Buttons{
+  display: flex;
+  justify-content: center;
+  float: left;
+  order: 2;
+  width: 55.5%;
+  margin-top: 3vw;
+  margin-right: 4.5%;
+  margin-left: 1.7%;
+  /*  background-color: #EAEAEA;*/
+  border-radius: 55px;
+  /*  box-shadow: inset 0 0 0 3px #D9D9D9;*/
+} 
+
+.Buttons button{
+  width: 33.5%;
+  padding: 1%;
+  margin: 7px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: crosshair;
+  font-family: "Heming";
+  font-size: 2.1vw;
+  border-radius: 55px;
+  background: #333333;
+  border: #EAEAEA;
+  outline: #EAEAEA;
+  color: #EAEAEA;
+  letter-spacing: 1px;
+}
+
+#Title{
+  margin-left: 4.5%;
+  margin-top: 3%;
+  font-family: Dotted;
+  font-size: 11.3vw;
+  color: #D9D9D9;
+}
+
+#Title h1{
+  margin-bottom: 5px;
+  margin-left: 0.5vw;
+  margin-top: 5vw;
+  font-size: 3.7vw;
+  font-family: Coolvetica;
+  color: #333333;
+  background: linear-gradient(275deg, #313131, #111111, #717171);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 5.1px;
+}
+
+.Tags{
+  overflow: hidden;
+  margin-top: 3.5vw;
+  margin-bottom: 1vw;
+  margin-left: 4.7%;
+  margin-right: 4.5%;
+  max-width: 45vw;
+  max-height: 8.1vw;
+  padding-right: 3vw;
+}
+.Tags p{
+  display: flex;
+  float: left;
+  margin-top: 0.3vw;
+  margin-bottom: 0.5vw;
+  margin-left: 0.9%;
+  margin-right: 0.25vw;
+  color: #D9D9D9;
+  background: linear-gradient(141deg, #555555, #454545, #414141);
+  padding: 0.9vw;
+  font-family: Heming;
+  font-size: 1.7vw;
+  letter-spacing: 0.5px;
+  border-radius: 9px;
+}
+.BottomArea{
+  position: relative;
+  display: flex;
+}
+
+.AboutMe{
+  position: relative;
+  background: linear-gradient(123deg, #333333, #151515);
+  width: 100%;
+  height: 49vw;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  border-radius: 55px;
+  margin-top: 7%;
+}
+.Experiences{
+  position: relative;
+  background: linear-gradient(123deg, #333333, #151515);
+  width: 100%;
+  height: 49vw;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  border-radius: 55px;
+  margin-top: 7%;
+}
+.Projects{
+  position: relative;
+  background: linear-gradient(123deg, #333333, #151515);
+  width: 100%;
+  height: 49vw;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  border-radius: 55px;
+  margin-top: 7%;
+}
+.Gallery{
+  position: relative;
+  background: linear-gradient(123deg, #333333, #151515);
+  width: 100%;
+  height: 49vw;
+  padding-top: 13px;
+  padding-bottom: 0px;
+  border-radius: 55px;
+  margin-top: 7%;
+}
+
+
+}
+
+
+

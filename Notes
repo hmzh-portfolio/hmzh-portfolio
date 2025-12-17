@@ -1,0 +1,66 @@
+
+
+Bikin buat 2 interface: desktop and android/tablet
+
+
+
+
+Dibagi jadi 3 section:
+  -title
+  -middle page
+  -bottom page
+
+
+
+title{
+  di UpperArea bikin running text, sebelahnya ada buttons
+  tengah dikasih title
+  bawahnya dikasih guide
+}
+
+middle page{
+  ada 
+}
+
+
+
+
+
+Background color:
+  - Main window: #474747
+  - Upper square: #EAEAEA
+  - 
+
+
+
+############################################################
+.marquee-container{
+  width: 100%;
+}
+
+.marquee-track{
+  display: inline-block;
+  whitespace: nowrap;
+  animation: scroll-left 7s linear infinite;
+}
+
+.marquee-text{
+  display: inline-block;
+  matgin-right: 2rem;
+}
+
+@keyframes scroll-left{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
+#######################################################################
+
+
+##################################
+
+
+

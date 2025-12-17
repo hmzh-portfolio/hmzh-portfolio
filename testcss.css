@@ -1,0 +1,85 @@
+
+/* FONTS */
+@font-face {
+    font-family: LemonMilk;
+    src: url("Fonts/lemon_milk/LEMONMILK-Medium.otf"); 
+}
+
+@font-face {
+    font-family: dotted;
+    src: url("Fonts/dotted/Dotted.ttf"); 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* =-=-=-=-=-=-=-=-=-= DESKTOP INTERFACE =-=-=-=-=-=-=-=-=-= */
+
+@media only screen and (min-width: 951px){
+
+body{
+  background-color: #D9D9D9;
+  padding: 1.7%;
+}
+
+.MainWindow{
+  background-color: #474747;
+  width: 100%;
+  height: 100%;
+  padding-top: 13px;
+  padding-bottom: 789px;
+  border-radius: 55px;
+}
+
+
+
+/*][][][][][][][][]][][][][[][][][][][][][][][][][][][][][][][][][][][][][][][]*/
+
+
+.MainWindow{ /*  as wrapper  */
+  padding: 0%;
+  padding-top: 0.3vw;
+  padding-bottom: 0vw;
+  background-color: #EAEAEA;
+  margin: 39px;
+  margin-top: 33px;
+  border-radius: 7vw;
+  font-size: 2.5vw;
+  gap: 3rem;
+}
+
+
+.UpperArea{ /*  as marquee-text  */
+  overflox: clip;
+  width: 100%;
+  font-family: "dotted";
+  font-size: 2.5vw;
+  animation: scroll-left 5s linear infinite;
+  overflow: hidden;
+  border-radius: 0.3vw;
+  padding-top: 0vw;
+  gap: 3rem;
+
+}
+
+.RunningText{
+  display: flex;
+  padding-top: 333px;
+}
+
+
+/*[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]*/
+
+
+.MainLeft{
+  background-color: #D9D9D9;
+  padding: 3vw;
+  margin-top: 3%;
+  margin-left: 39px;
+  margin-right: 55vw;
+  border-radius: 25px;
+}
+
+}
+
